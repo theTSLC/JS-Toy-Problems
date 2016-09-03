@@ -10,3 +10,8 @@ var summation = function (number) {
 	return sum;
 }
 
+// O(1) - constant time complexity
+var summation = function (number) {
+	return number * (number + 1) / 2;
+}
+
