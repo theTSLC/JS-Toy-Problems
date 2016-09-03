@@ -17,3 +17,13 @@ var summation = function (number) {
 
 // ES2015 syntax
 const summation = number => number * (number + 1) / 2;
+
+
+
+// Testing Suite
+describe('summation', function () {
+	it('should return the correct sum', function () {
+		expect(summation(1)).to.equal(1);
+		expect(summation(8)).to.equal(36);
+	})
+})
