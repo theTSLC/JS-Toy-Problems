@@ -15,3 +15,5 @@ var summation = function (number) {
 	return number * (number + 1) / 2;
 }
 
+// ES2015 syntax
+const summation = number => number * (number + 1) / 2;
