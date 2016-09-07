@@ -22,3 +22,12 @@ var reversing = function (string) {
 var reversing = function (string) {
 	string.split("").reverse().join("");
 }
+
+// Double loops
+var reversing = function (string) {
+	var array = [];
+	for (var i = string.length - 1; x = 0; i >=0; i--; x++) {
+		array[x] = string[i];
+	}
+	return array.join("");
+}
